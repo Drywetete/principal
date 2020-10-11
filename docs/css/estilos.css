@@ -37,8 +37,44 @@ nav.navbar {
 }
 
 section#Trabajos {
-	height: 1080px;
+	height: auto;
 	background-image: url(../images/IMG_8933.JPG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+section#cine {
+	height: auto;
+	background-image: url( ../images/parallax1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+section#music {
+	height: auto;
+	background-image: url( ../images/parallax1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+section#promo {
+	height: auto;
+	background-image: url( ../images/parallax1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+section#videoarte {
+	height: auto;
+	background-image: url( ../images/parallax1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
