@@ -31,6 +31,41 @@ nav.navbar {
 	height: 90px;
 }
 
+header {
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+video {
+	width: 100%;
+}
+
+.absolute {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.absolute h1 {
+	font-family: DalekPinpointBold;
+	z-index: 100;
+	color: white;
+}
+
+.absolute p {
+	z-index: 100;
+	color: white;
+}
+
+
 #titulo-novedades, #titulo-trabajos, #titulo-servicios, #titulo-nosotros, #titulo-contacto {
 	font-family: DalekPinpointBold;
 	margin: 0 auto;
@@ -45,9 +80,10 @@ section#Trabajos {
 	background-position: center;
 }
 
+
 section#cine {
 	height: auto;
-	background-image: url( ../images/parallax1.jpg);
+	background-image: url(../images/parallax0.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -56,7 +92,7 @@ section#cine {
 
 section#music {
 	height: auto;
-	background-image: url( ../images/parallax1.jpg);
+	background-image: url( ../images/parallax01.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -65,7 +101,7 @@ section#music {
 
 section#promo {
 	height: auto;
-	background-image: url( ../images/parallax1.jpg);
+	background-image: url( ../images/parallax02.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -74,7 +110,7 @@ section#promo {
 
 section#videoarte {
 	height: auto;
-	background-image: url( ../images/parallax1.jpg);
+	background-image: url(../images/parallax0.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
